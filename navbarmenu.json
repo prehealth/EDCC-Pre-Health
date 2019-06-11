@@ -1,0 +1,51 @@
+{
+
+"regular": [
+  {
+    "name": "Home",
+    "href": "home"
+  },
+  {
+    "name": "Contacts",
+    "href": "contact"
+  },
+  {
+    "name": "Transfer Info",
+    "href": "transfer"
+
+  },
+   {
+    "name": "Volunteering and Shadowing",
+    "href": "volunteer"
+  },
+  
+  {
+    "name": "Resources and Narratives",
+    "href": "resource"
+  },
+
+    {
+    "name": "Pathways",
+    "href": "pathways"
+    }
+
+  
+],
+
+
+"overflow": [
+
+
+    {
+    "name": "General Advice",
+    "href": "advice"
+    },
+
+    {
+    "name": "Other Links",
+    "href": "other"
+    }
+  ]
+ 
+
+}

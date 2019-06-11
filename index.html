@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Edmonds Community College - Pre Health Transfer Resource</title>
+
+	<script src="jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
+
+	<link href="style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+<script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+  integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+  crossorigin="anonymous"></script>
+<script src="prehealth.js"></script>
+
+</head>
+<body>	 
+
+
+		<div class="sticky">
+			<div class="green-bar">
+			</div>
+					
+				<nav class="nbar nav-blue" id="#navbar">
+				
+					<a href="#" id="overflowNavSmall">
+			
+							<div class="icon"></div>
+							<div class="icon"></div>
+							<div class="icon"></div>
+
+					</a>
+
+					<div id="smallMenuContainer">
+
+					<ul id="smallMenu">
+					</ul>
+
+					</div>
+
+					<ul id="navbarMenu" >
+						<!--<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<li><a href="#transfer">Transfer Information</a></li>
+						<li><a href="#research">Research Opportunities for Pre Health Students</a></li>
+						<li><a href="#volunteering">Volunteering and Shadowing</a></li>
+						<li><a href="#resource">Resources and Narratives</a></li>
+						<li><a href="#pathways">Pathways</a></li>
+						<li><a href="#advice">General Advice</a></li>-->
+					</ul>
+					
+		
+					<a href="#" id="overflowNav">
+			
+							<div class="icon"></div>
+							<div class="icon"></div>
+							<div class="icon"></div>
+
+					</a>
+
+					
+					
+					<div id="overflowMenu">
+
+					<ul id="overflow" class="extra-menu"></ul>
+
+					</div>
+
+				</nav>
+
+		</div>
+
+
+    
+		<section id="home">
+			<div id="banner">
+				
+			<div class="home-container">
+
+				<div class="banner-left">
+					
+					<div class="favicon">
+						<a href="#"><img src="img/fa-facebook.png"></a>
+						<a href="#"><img src="img/fa-twitter.png"></a>
+
+					</div>
+
+				</div>
+				
+				<div class="banner-right">
+					
+				</div>
+
+			</div>
+		</div>
+		<div class="home-container-background-image"></div>
+		</section>
+	
+		<section id="contact">																																	
+		</section>
+		<section id="transfer">
+			<div class="transfer-container">
+
+				<h1>Transfer Information</h1>
+				 <p>In addition to talking to advisors in the pre-health programs at your future university, there are also many special interest students clubs you can join to connect with other students interested in the same path as you. Joining these clubs can also connect you to healthcare-related opportunities and a network of healthcare professionals interested in mentoring students. </p>
+				 <p>Click on a school logo for transfer information for that college</p>
+
+				 <div class="xfer-row">
+				 	<img src="img/uw_transfer.png" alt="University of Washington logo" class="xferInfo" id="uw" />
+				 	<img src="img/wsu_transfer.png" alt="Washington State University Logo" class="xferInfo" id="wsu" />
+				 	<img src="img/cwu_transfer.png" alt="Central Washington Univsersity Logo" class="xferInfo" id="cwu" />
+				 </div>
+
+				 <div class="xfer-row">
+				 	<img src="img/spu_transfer.png" alt="Seattle Pacific University Logo" class="xferInfo" id="spu" />
+				 	<img src="img/g_transfer.png" alt="Gonazaga University Logo" class="xferInfo" id="gonz" />
+				 	<img src="img/wwu_transfer.png" alt="Western Washington University Logo" class="xferInfo" id="wwu" />
+				 </div>
+		
+				 <div class="xfer-row">
+				 	<img src="img/plu_transfer.png" alt="Pacific Lutheran University Logo" class="xferInfo" id="plu" />
+				 	<img src="img/sutransfer.png" alt="Seattle University Logo" class="xferInfo" id="su" />
+
+
+				 </div>
+
+			</div>
+	
+			<div id="modal">
+			  <div id="modalHeader"	class="modal-header">
+			  <div class="title"></div>
+			  <button type="button" class="close-button">&times;</button>
+			</div>	
+			  <div id="modalBody" class="modal-body"></div>
+			</div>
+			<div class="modal-overlay"></div>
+		</section>
+
+
+		<!-- <section id="research">
+
+			<div class="research-container">
+				<h1>Research Opportunities for Pre-Health Students</h1>
+			</div>
+
+		</section>-->
+
+		<section id="volunteer">
+
+			<div class="volunteer-container">
+
+				<div class="volunteer-left">
+				</div>
+
+				<div class="volunteer-right">
+					<h1>Volunteering and Shadowing Opportunities Through Edmonds CC</h1>
+
+					<blockquote>“You make a living by what you get. You make a life by what you give.”</blockquote>
+
+					<h3>Current opportunities for job shadowing and volunteering for pre-med students:</h3>
+
+					<ul>
+
+						<li>
+
+						<a href="https://students-residents.aamc.org/choosing-medical-career/medical-careers/aspiring-docs/aspiring-docs-fact-sheets/aspiring-docs-experience/" title="Association of American Medical Colleges Link">Association of American Medical Colleges</a>
+
+						</li>
+
+					</ul>
+
+				</div>
+			</div>
+			
+		</section>
+		
+		<section id="resource">
+
+		</section>
+
+		<section id="pathways">
+
+			
+
+		</section>
+		<section id="advice">
+
+			
+
+			
+		</section>
+		
+		<section id="other">
+		</section>
+
+	
+
+
+
+</body>
+</html>
+
