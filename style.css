@@ -1,4 +1,4 @@
-	*
+*
 	{
 		box-sizing: border-box;
 	}
@@ -23,16 +23,6 @@
 		background-color: #27d243;
 		width: 100%;
 	}
-
-		::-webkit-scrollbar 
-		{
-  			width: 10px;
-		}
-
-		::-webkit-scrollbar-thumb 
-		{
-		  background: #004d71; 
-		}
 
 	nav
 	{
@@ -373,7 +363,7 @@
 		position: fixed;
 		max-width: 95%;
 		width: auto;
-		height: auto;
+		height: 85%;
 		top: 50%;
 		left: 50%;
 		background-color: #FFF;
@@ -382,7 +372,6 @@
 		border-radius: 10px;
 		z-index: 2;
 		overflow: auto;
-
 	}
 
 	.modal-header
@@ -779,12 +768,11 @@
 
 	/* Begin media query section
 	------------------------------------------------
-
 	*/
 
 
 
-@media only screen and (max-width: 900px)
+@media only screen and (max-width: 980px)
 	{
 
 
@@ -1104,11 +1092,14 @@
 			font-size: 1.5em;
 		}
 
-		#modal
+		::-webkit-scrollbar 
 		{
-			min-width: 95%;
-			height: auto;
-			overflow: auto;
+  			width: 10px;
+		}
+
+		::-webkit-scrollbar-thumb 
+		{
+		  background: #004d71; 
 		}
 
 		div.modal-body
@@ -1150,4 +1141,3 @@
 
 
 }
-
