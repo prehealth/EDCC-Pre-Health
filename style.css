@@ -372,7 +372,6 @@
 		border-radius: 10px;
 		z-index: 2;
 		overflow: auto;
-		scrollbar-width: thin;
 
 	}
 
@@ -775,7 +774,7 @@
 
 
 
-@media only screen and (max-width: 980px)
+@media only screen and (max-width: 578px)
 	{
 
 
